@@ -1,5 +1,5 @@
 ---
-title: Translation
+title: Translating Bump
 ---
 
 You want to see Bump be translated to more languages? Great.

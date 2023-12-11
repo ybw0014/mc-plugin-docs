@@ -13,13 +13,17 @@ export default defineConfig({
         src: './src/assets/avatar.png'
       },
       favicon: './src/assets/avatar.png',
+      customCss: [
+        './src/styles/docs.css'
+      ],
       social: {
         github: 'https://github.com/ybw0014/mc-plugin-docs'
       },
-      defaultLocale: 'en',
+      defaultLocale: 'root',
       locales: {
-        en: {
-          label: 'English'
+        root: {
+          label: 'English',
+          lang: 'en'
         },
         'zh-cn': {
           label: '简体中文',
@@ -60,6 +64,78 @@ export default defineConfig({
               translations: {
                 'zh-CN': '翻译 Bump'
               }
+            },
+            {
+              label: 'Settings',
+              translations: {
+                'zh-CN': '设置'
+              },
+              items: [
+                {
+                  label: 'Main config',
+                  link: '/bump/settings/main-config',
+                  translations: {
+                    'zh-CN': '主要配置'
+                  }
+                },
+                {
+                  label: 'Appraise types config',
+                  link: '/bump/settings/appraise-types-config',
+                  translations: {
+                    'zh-CN': '鉴定类型配置'
+                  }
+                }
+              ]
+            },
+            {
+              label: 'Categories',
+              translations: {
+                'zh-CN': '分类'
+              },
+              items: [
+                {
+                  label: 'Armor',
+                  link: '/bump/categories/armor',
+                  translations: {
+                    'zh-CN': '盔甲'
+                  }
+                },
+                {
+                  label: 'Food',
+                  link: '/bump/categories/food',
+                  translations: {
+                    'zh-CN': '食物'
+                  }
+                },
+                {
+                  label: 'Machine',
+                  link: '/bump/categories/machine',
+                  translations: {
+                    'zh-CN': '机器'
+                  }
+                },
+                {
+                  label: 'Stuff',
+                  link: '/bump/categories/stuff',
+                  translations: {
+                    'zh-CN': '材料'
+                  }
+                },
+                {
+                  label: 'Tool',
+                  link: '/bump/categories/tool',
+                  translations: {
+                    'zh-CN': '工具'
+                  }
+                },
+                {
+                  label: 'Magic Weapon',
+                  link: '/bump/categories/magic-weapon',
+                  translations: {
+                    'zh-CN': '魔法武器'
+                  }
+                }
+              ]
             }
           ]
         }

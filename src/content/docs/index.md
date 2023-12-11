@@ -1,6 +1,7 @@
 ---
-title: Select your language
+title: Home
 ---
 
-- [English](/en/)
-- [简体中文](/zh-cn/)
+This website contains the documentation of Minecraft plugins written by ybw0014.
+
+Use the sidebar to navigate.
