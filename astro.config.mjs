@@ -1,8 +1,9 @@
 import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
 import tailwind from '@astrojs/tailwind'
-import rehypeExternalLinks from 'rehype-external-links'
 import cloudflare from '@astrojs/cloudflare'
+import remarkHeadingId from 'remark-heading-id'
+import rehypeExternalLinks from 'rehype-external-links'
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,7 +13,7 @@ export default defineConfig({
     logo: {
       src: './src/assets/avatar.png'
     },
-    favicon: './src/assets/avatar.png',
+    favicon: '/favicon.ico',
     customCss: [
       '@fontsource/noto-sans',
       '@fontsource/noto-sans-sc',
@@ -96,10 +97,12 @@ export default defineConfig({
     applyBaseStyles: false
   })],
   markdown: {
-    rehypePlugins: [[rehypeExternalLinks, {
-      target: '_blank',
-      rel: ['noopener', 'noreferrer']
-    }]]
+    remarkPlugins: [
+      remarkHeadingId
+    ],
+    rehypePlugins: [
+      [rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }]
+    ]
   },
   output: 'hybrid',
   adapter: cloudflare()
