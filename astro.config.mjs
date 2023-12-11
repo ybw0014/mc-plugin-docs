@@ -13,7 +13,11 @@ export default defineConfig({
       src: './src/assets/avatar.png'
     },
     favicon: './src/assets/avatar.png',
-    customCss: ['./src/styles/docs.css'],
+    customCss: [
+      '@fontsource/noto-sans',
+      '@fontsource/noto-sans-sc',
+      './src/styles/docs.css'
+    ],
     social: {
       github: 'https://github.com/ybw0014/mc-plugin-docs'
     },
