@@ -4,5 +4,5 @@ title: Tool
 
 Useful tools.
 
-- [Getting-gold Shovel](../items/getting-gold-shovel)
-- [Quality Identifiers](../items/quality-identifiers)
+- [Getting-gold Shovel](/bump/items/getting-gold-shovel)
+- [Quality Identifiers](/bump/items/quality-identifiers)

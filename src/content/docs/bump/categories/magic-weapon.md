@@ -8,7 +8,7 @@ Magic Weapons
 - Withered Bow
 - Emerald Sword
 - Bone Sword
-- [Random Short Edge](../items/random-equipment)
+- [Random Short Edge](/bump/items/random-equipment/)
 - Guardian Sword
 - Peach Wood Sword
 - Soul Sword

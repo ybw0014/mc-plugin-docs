@@ -40,4 +40,4 @@ appraise:
 | `options.lang` | The language of the addon. | `en-US` | See [available languages](https://github.com/SlimefunGuguProject/Bump#supported-languages). |
 | `options.enable-researches` | Whether to enable researches. | `true` | `true`/`false` |
 | `weapons.projectile-duration` | The duration of the projectiles fired by Bump weapons, in Slimefun ticks. | `10` | `0` ~ `60` |
-| `appraise.stars` | The relationship of the final percent and the star rating. | &nbsp; | &nbsp; |
+| `appraise.stars` | The relationship of the final percent and the star rating. | &nbsp; | See [Appraisal Instrument](/bump/items/appraisal-instrument). |

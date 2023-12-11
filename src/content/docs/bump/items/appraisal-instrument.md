@@ -8,7 +8,7 @@ Appraisal Instrument is a machine in Bump. It can appraise the equipment labeled
 
 Put in any equipment labeled with *Not appraised*, and click on **Click to appraise**.
 
-All [random equiment](../items/random-equipment) are labeled with *Not appraised*. [Quality Identifiers](../items/quality-identifier) can also label items
+All [random equiment](/bump/items/random-equipment) are labeled with *Not appraised*. [Quality Identifiers](/bump/items/quality-identifier) can also label items
 
 ## Star Rating
 
@@ -39,7 +39,7 @@ Adding all weighted percents, you will get the overall percents.
 | 10                                      | 1               |
 | 0                                       | 0               |
 
-Server owners can customize this relationship in the [main config](../settings/main-config).
+Server owners can customize this relationship in the [main config](/bump/settings/main-config).
 
 ## Default appraise types
 

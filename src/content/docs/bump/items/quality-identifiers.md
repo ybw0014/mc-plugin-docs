@@ -10,5 +10,5 @@ Quality Identifiers are tools in Bump. There are three kinds of quality identifi
 
 ## Usage
 
-Quality Identifiers can mark applicable equipment as appraisable, which means it can be appraised in [Appraisal Instrument](../items/appraisal-instrument).
+Quality Identifiers can mark applicable equipment as appraisable, which means it can be appraised in [Appraisal Instrument](/bump/items/appraisal-instrument).
 For Armor and Weapon one, only Slimefun items are accepted. The Horse Armor one accepts any horse armor.
