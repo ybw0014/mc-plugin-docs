@@ -18,7 +18,7 @@ The appraise result is rated by stars. The number of stars is calculated by addi
 
 The weighted percent is calculated by this formula:
 
-```text
+```txt
 (AttributeResult - Minimum) / (Maximum - Minimum) * Weight
 ```
 
