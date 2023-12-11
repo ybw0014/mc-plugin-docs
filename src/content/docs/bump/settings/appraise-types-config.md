@@ -56,7 +56,7 @@ example_type:
 | `equipment-type` | (**Required**) Allowed equipment type.<br /> | **ANY**: Any item.<br />**VANILLA**: Vanilla items only (Actually, non-Slimefun items).<br />**SLIMEFUN**: Slimefun items only. |
 | `check-material` | (*Optional*) Whether to check the material of the item while appraising. | `true`/`false` |
 | `materials` | (*Optional*) Allowed materials.<br />If `check-material` is `false`, this field will be ignored. | See [acceptable materials](#acceptable-materials) section for more info. |
-| `equipment-slots` | (**Required**) Allowed equipment slots.<br /> | See [EquipmentSlot](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/EquipmentSlot.html) |
+| `equipment-slots` | (**Required**) Allowed equipment slots. | See [EquipmentSlot](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/inventory/EquipmentSlot.html) |
 | `slimefun-items` | (*Optional*) Acceptable Slimefun item ids.<br />Only valid when `equipment-type` is `ANY`/`SLIMEFUN`.<br />If this option is empty, then all slimefun items are acceptable. | Slimefun item IDs. |
 | `attributes.X` | The attributes that will be modified by this appraise type. Each section represents an attribute. | See [Attribute](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html). |
 | `attributes.X.min` | (**Required**) The minimum value of this attribute. | See [attribute](#attribute) section for more info. |
@@ -78,7 +78,7 @@ You can find all tags in our GitHub repository: [Click to go](https://github.com
 
 ### Permission
 
-The permission will be checked when a player selects a specified appraise type in Appraisal Instrument, or clicks on **Appraise** button in Appraisal Instrument.
+The permission will be checked when a player selects a specified appraise type in [Appraisal Instrument](/bump/items/appraisal-instrument), or clicks on **Appraise** button in Appraisal Instrument.
 
 ### Attribute
 
