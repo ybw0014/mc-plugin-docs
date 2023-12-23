@@ -56,7 +56,7 @@ export default defineConfig({
         items: [
           {
             label: 'What is Bump?',
-            link: '/bump/what-is-bump/',
+            link: '/bump/',
             translations: {
               'zh-CN': '什么是 Bump?'
             }
