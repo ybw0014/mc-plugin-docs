@@ -56,9 +56,50 @@ export default defineConfig({
         items: [
           {
             label: 'What is Bump?',
-            link: '/bump/what-is-bump/',
+            link: '/bump/',
             translations: {
               'zh-CN': '什么是 Bump?'
+            }
+          },
+          {
+            label: 'Translating Bump',
+            link: '/bump/translation/',
+            translations: {
+              'zh-CN': '翻译 Bump'
+            }
+          },
+          {
+            label: 'Settings',
+            translations: {
+              'zh-CN': '设置'
+            },
+            autogenerate: { directory: 'bump/settings' }
+          },
+          {
+            label: 'Categories',
+            translations: {
+              'zh-CN': '分类'
+            },
+            autogenerate: { directory: 'bump/categories' }
+          },
+          {
+            label: 'Items',
+            translations: {
+              'zh-CN': '物品'
+            },
+            collapsed: true,
+            autogenerate: { directory: 'bump/items' }
+          }
+        ]
+      },
+      {
+        label: 'SlimefunTranslation',
+        items: [
+          {
+            label: 'Introduction',
+            link: '/slimefuntranslation/',
+            translations: {
+              'zh-CN': '介绍'
             }
           },
           {
