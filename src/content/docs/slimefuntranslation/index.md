@@ -9,7 +9,7 @@ A Slimefun Addon that translates Slimefun items (also support addons) into diffe
 ### Dependencies
 
 - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) is required dependency. You may need to download the development version if you are on 1.20+.
-- [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) is optional dependency. It is required if you want to use placeholders in the translation.
+- [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) is required dependency. It is required if you want to use placeholders in the translation.
 
 ### Blob Builds
 

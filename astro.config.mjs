@@ -103,33 +103,22 @@ export default defineConfig({
             }
           },
           {
-            label: 'Translating Bump',
-            link: '/bump/translation/',
+            label: 'Guides',
             translations: {
-              'zh-CN': '翻译 Bump'
-            }
+              'zh-CN': '教程'
+            },
+            autogenerate: { directory: 'slimefuntranslation/guides' }
           },
           {
-            label: 'Settings',
+            label: 'Configurations',
             translations: {
               'zh-CN': '设置'
             },
-            autogenerate: { directory: 'bump/settings' }
+            autogenerate: { directory: 'slimefuntranslation/config' }
           },
           {
-            label: 'Categories',
-            translations: {
-              'zh-CN': '分类'
-            },
-            autogenerate: { directory: 'bump/categories' }
-          },
-          {
-            label: 'Items',
-            translations: {
-              'zh-CN': '物品'
-            },
-            collapsed: true,
-            autogenerate: { directory: 'bump/items' }
+            label: 'API',
+            autogenerate: { directory: 'slimefuntranslation/api' }
           }
         ]
       }
