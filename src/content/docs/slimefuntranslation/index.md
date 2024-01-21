@@ -8,15 +8,15 @@ A Slimefun Addon that translates Slimefun items (also support addons) into diffe
 
 ### Dependencies
 
-- [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/) is required dependency. You may need to download the development version if you are on 1.20+.
-- [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) is required dependency. It is required if you want to use placeholders in the translation.
+- [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/): **Required**. You may need to download the development version if you are on 1.20+.
+- [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/): **Required**. We have used many placeholders in our default translations.
+- [Slimefun](https://github.com/Slimefun/Slimefun4): Dev 1131 or above is **required**.
 
-### Blob Builds
+### SlimefunTranslation Download
 
-Blob Builds (official builds page for Slimefun and addons): [Click to go](https://blob.build/project/SlimefunTranslation/Dev)
+You can download from either page:
 
-### Guizhan Builds
+- Blob Builds, the official builds page for Slimefun and addons: [Click to go](https://blob.build/project/SlimefunTranslation/Dev)
+- Guizhan Builds, my own builds page, all my addons are also available there: [![Build Status](https://builds.guizhanss.com/api/badge/ybw0014/SlimefunTranslation/master/latest)](https://builds.guizhanss.com/ybw0014/SlimefunTranslation/master)
 
-Guizhan Builds (my own builds page, all my addons are also available there):
-
-[![Build Status](https://builds.guizhanss.com/api/badge/ybw0014/SlimefunTranslation/master/latest)](https://builds.guizhanss.com/ybw0014/SlimefunTranslation/master)
+The build number may be different on these 2 pages, because Blob Builds will not include failed builds. As long as they are latest on the page, they are supported.

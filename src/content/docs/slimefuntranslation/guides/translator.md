@@ -8,7 +8,7 @@ SlimefunTranslation aims to translate all Slimefun items (as well as addons) int
 
 SlimefunTranslation uses [Crowdin](https://crowdin.com/project/slimefuntranslation) to manage translations. You can join the project and start translating SlimefunTranslation into your language. If the language you want to translate is not available, please contact us in `#slimefuntranslation` at [Slimefun Addon Community Discord Server](https://discord.gg/SqD3gg5SAU), or dm `@ybw0014`.
 
-Once you submit a translation, you join our translation project and become a member. The first translator of a language will be promoted to proofreader of that language (manually when I check Crowdin, so be patient if you are not promoted yet). Proofreaders can approve translations. Only approved translations will be synced to our GitHub repository and be included in the next release.
+Once you submit a translation, you join our translation project and become a member. The first translator of a language will be promoted to proofreader of that language (manually when I check Crowdin, so be patient if you are not promoted yet). Proofreaders can approve translations. Only approved translations will be synced to our GitHub repository and be packed into next build.
 
 ### Placeholders
 
