@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "ybw0014 的 Minecraft 插件",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Bump": {
+    "message": "Bump",
+    "description": "Navbar item with label Bump"
+  },
+  "item.label.SlimefunTranslation": {
+    "message": "SlimefunTranslation",
+    "description": "Navbar item with label SlimefunTranslation"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

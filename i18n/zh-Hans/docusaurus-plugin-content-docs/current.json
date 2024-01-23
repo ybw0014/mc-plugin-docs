@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "下一篇",
+    "description": "The label for version current"
+  },
+  "sidebar.bump.category.Settings": {
+    "message": "设置",
+    "description": "The label for category Settings in sidebar bump"
+  },
+  "sidebar.bump.category.Category": {
+    "message": "分类",
+    "description": "The label for category Category in sidebar bump"
+  },
+  "sidebar.bump.category.Items": {
+    "message": "物品",
+    "description": "The label for category Items in sidebar bump"
+  },
+  "sidebar.slimefun-translation.category.Usage": {
+    "message": "使用",
+    "description": "The label for category Usage in sidebar slimefun-translation"
+  },
+  "sidebar.slimefun-translation.category.Settings": {
+    "message": "设置",
+    "description": "The label for category Settings in sidebar slimefun-translation"
+  }
+}
