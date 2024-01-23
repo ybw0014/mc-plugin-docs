@@ -11,7 +11,7 @@ Once you submit a translation, you join our translation project and become a mem
 
 ## Placeholders
 
-If you have read the [Placeholders section](/slimefun-translation/config/placeholders), you should know that SlimefunTranslation uses PlaceholderAPI to provide placeholders for the translations. In this case, any available placeholders can be used in translations.
+If you have read the [Placeholders section](/slimefun-translation/usage/placeholders), you should know that SlimefunTranslation uses PlaceholderAPI to provide placeholders for the translations. In this case, any available placeholders can be used in translations.
 
 However, if you changed the format of placeholders, it may cause problems. It is important to know when to keep the format and when to change it.
 

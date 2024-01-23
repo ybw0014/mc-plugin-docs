@@ -66,8 +66,8 @@ messages:
 | --- | --- |
 | `name` | The display name of this translation file. |
 | `author` | The author of this translation file. |
-| `translations` | All the item translations. See [Item Translations](/slimefun-translation/config/translations#) section. |
-| `lore` | All the lore translations. See [PlaceholderAPI](/slimefun-translation/config/placeholders) page. |
+| `translations` | All the item translations. See [Item Translations](#item-translations) section. |
+| `lore` | All the lore translations. See [PlaceholderAPI](/slimefun-translation/usage/placeholders) page. |
 | `messages` | All the message translations.|
 
 ### Item Translations

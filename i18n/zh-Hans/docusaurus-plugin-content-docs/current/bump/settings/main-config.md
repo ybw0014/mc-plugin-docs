@@ -36,4 +36,4 @@ appraise:
 | `options.lang` | 附属的语言。 | `en-US` | 详见[可用语言](https://github.com/SlimefunGuguProject/Bump#supported-languages)。 |
 | `options.enable-researches` | 是否启用研究。 | `true` | `true`/`false` |
 | `weapons.projectile-duration` | Bump 武器发射的弹射物持续时间，单位为粘液刻。 | `10` | `0` ~ `60` |
-| `appraise.stars` | 鉴定结果与星级的关系。 | &nbsp; | 详见[鉴定仪](/zh-cn/bump/items/appraisal-instrument)。 |
+| `appraise.stars` | 鉴定结果与星级的关系。 | &nbsp; | 详见[鉴定仪](/bump/items/appraisal-instrument)。 |

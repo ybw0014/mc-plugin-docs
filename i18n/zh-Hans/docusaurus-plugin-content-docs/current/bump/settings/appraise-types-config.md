@@ -76,7 +76,7 @@ Bump 定义了一系列的标签可供使用。
 
 ### 权限 {#permission}
 
-当玩家在[鉴定仪](/zh-cn/bump/items/appraise-instrument)中选择指定的鉴定类型，或点击**鉴定**按钮时，会检查权限。
+当玩家在[鉴定仪](/bump/items/appraisal-instrument)中选择指定的鉴定类型，或点击**鉴定**按钮时，会检查权限。
 
 ### 属性 {#attribute}
 
