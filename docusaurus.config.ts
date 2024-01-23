@@ -1,6 +1,6 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import {themes as prismThemes} from 'prism-react-renderer'
+import type {Config} from '@docusaurus/types'
+import type * as Preset from '@docusaurus/preset-classic'
 
 const config: Config = {
   title: 'ybw0014\'s Minecraft Plugins',
@@ -26,7 +26,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh-Hans'],
+    locales: ['en', 'zh-Hans']
   },
 
   presets: [
@@ -37,14 +37,14 @@ const config: Config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/ybw0014/mc-plugin-docs/tree/master/docs',
+            'https://github.com/ybw0014/mc-plugin-docs/tree/master/docs'
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
-        },
-      } satisfies Preset.Options,
-    ],
+          customCss: './src/css/custom.css'
+        }
+      } satisfies Preset.Options
+    ]
   ],
 
   themeConfig: {
@@ -54,31 +54,31 @@ const config: Config = {
       title: 'ybw0014\'s Minecraft Plugins',
       logo: {
         alt: 'Logo',
-        src: 'img/logo.jpg',
+        src: 'img/logo.jpg'
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'bump',
           position: 'left',
-          label: 'Bump',
+          label: 'Bump'
         },
         {
           type: 'docSidebar',
           sidebarId: 'slimefun-translation',
           position: 'left',
-          label: 'SlimefunTranslation',
+          label: 'SlimefunTranslation'
         },
         {
           href: 'https://github.com/ybw0014/mc-plugin-docs',
           label: 'GitHub',
-          position: 'right',
+          position: 'right'
         },
         {
           type: 'localeDropdown',
-          position: 'right',
+          position: 'right'
         }
-      ],
+      ]
     },
     footer: {
       style: 'dark',
@@ -88,39 +88,39 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/ybw0014',
+              href: 'https://github.com/ybw0014'
             },
             {
               label: 'Guizhan Builds',
-              href: 'https://builds.guizhanss.com',
+              href: 'https://builds.guizhanss.com'
             }
-          ],
+          ]
         },
         {
           title: 'Slimefun Links',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Slimefun/Slimefun4',
+              href: 'https://github.com/Slimefun/Slimefun4'
             },
             {
               label: 'Wiki',
-              href: 'https://github.com/Slimefun/Slimefun4/wiki',
+              href: 'https://github.com/Slimefun/Slimefun4/wiki'
             },
             {
               label: 'Blob Builds',
-              href: 'https://blob.build/',
+              href: 'https://blob.build/'
             }
-          ],
+          ]
         }
       ],
-      copyright: `&copy; ${new Date().getFullYear()} ybw0014. Powered by Docusaurus.`,
+      copyright: `&copy; ${new Date().getFullYear()} ybw0014. Powered by Docusaurus.`
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-    },
-  } satisfies Preset.ThemeConfig,
-};
+      darkTheme: prismThemes.dracula
+    }
+  } satisfies Preset.ThemeConfig
+}
 
-export default config;
+export default config
