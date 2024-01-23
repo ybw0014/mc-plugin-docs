@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'ybw0014\'s Minecraft Plugins',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Plugins are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -34,19 +34,12 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ybw0014/mc-plugin-docs/tree/master/docs',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -56,72 +49,72 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'ybw0014\'s Minecraft Plugins',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Logo',
+        src: 'img/logo.jpg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'bump',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Bump',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          type: 'docSidebar',
+          sidebarId: 'slimefun-translation',
+          position: 'left',
+          label: 'SlimefunTranslation',
+        },
+        {
+          href: 'https://github.com/ybw0014/mc-plugin-docs',
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        }
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'My Links',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ybw0014',
             },
+            {
+              label: 'Guizhan Builds',
+              href: 'https://builds.guizhanss.com',
+            }
           ],
         },
+        {
+          title: 'Slimefun Links',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/Slimefun/Slimefun4',
+            },
+            {
+              label: 'Wiki',
+              href: 'https://github.com/Slimefun/Slimefun4/wiki',
+            },
+            {
+              label: 'Blob Builds',
+              href: 'https://blob.build/',
+            }
+          ],
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `&copy; ${new Date().getFullYear()} ybw0014. Powered by Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
