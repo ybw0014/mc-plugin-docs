@@ -29,6 +29,12 @@ const config: Config = {
     locales: ['en', 'zh-Hans']
   },
 
+  plugins: [
+    [require.resolve('@cmfcmf/docusaurus-search-local'), {
+      indexBlog: false
+    }]
+  ],
+
   presets: [
     [
       'classic',
@@ -71,8 +77,9 @@ const config: Config = {
         },
         {
           href: 'https://github.com/ybw0014/mc-plugin-docs',
-          label: 'GitHub',
-          position: 'right'
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository'
         },
         {
           type: 'localeDropdown',
