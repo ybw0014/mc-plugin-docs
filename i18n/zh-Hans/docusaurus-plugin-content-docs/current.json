@@ -22,5 +22,17 @@
   "sidebar.slimefun-translation.category.Settings": {
     "message": "设置",
     "description": "The label for category Settings in sidebar slimefun-translation"
+  },
+  "sidebar.guizhan-builds.category.API": {
+    "message": "API",
+    "description": "The label for category API in sidebar guizhan-builds"
+  },
+  "sidebar.guizhan-builds.category.Projects": {
+    "message": "项目",
+    "description": "The label for category Projects in sidebar guizhan-builds"
+  },
+  "sidebar.guizhan-builds.category.Builds": {
+    "message": "构建",
+    "description": "The label for category Builds in sidebar guizhan-builds"
   }
 }
