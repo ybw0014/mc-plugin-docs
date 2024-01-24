@@ -21,4 +21,4 @@ sidebar_position: 11
 
 响应将是一个下载流。
 
-如果未找到构建，它将返回 [2001 构建产物未找到](/docs/guizhan-builds/api/reference) 错误。
+如果未找到构建，它将返回 [2001 构建产物未找到](/guizhan-builds/api/reference) 错误。

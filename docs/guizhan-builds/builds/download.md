@@ -21,4 +21,4 @@ This is not a standard API endpoint. It will return a download stream if the art
 
 The response will be a download stream.
 
-If the build is not found, it will return a [2001 Build artifact not found](/docs/guizhan-builds/api/reference) error.
+If the build is not found, it will return a [2001 Build artifact not found](/guizhan-builds/api/reference) error.
