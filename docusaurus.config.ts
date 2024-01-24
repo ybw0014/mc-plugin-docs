@@ -65,6 +65,12 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'guizhan-builds',
+          position: 'left',
+          label: 'Guizhan Builds'
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'bump',
           position: 'left',
           label: 'Bump'
