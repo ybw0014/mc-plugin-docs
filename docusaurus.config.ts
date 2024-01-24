@@ -29,12 +29,6 @@ const config: Config = {
     locales: ['en', 'zh-Hans']
   },
 
-  plugins: [
-    [require.resolve('@cmfcmf/docusaurus-search-local'), {
-      indexBlog: false
-    }]
-  ],
-
   presets: [
     [
       'classic',
@@ -132,6 +126,22 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula
+    },
+    algolia: {
+      appId: 'O8LFXULH6B',
+      apiKey: 'ac2e23d07a978361de96e4dcc0bc951d',
+      indexName: 'ybw0014',
+
+      replaceSearchResultPathname: {
+        from: '/docs/', // or as RegExp: /\/docs\//
+        to: '/'
+      },
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search'
     }
   } satisfies Preset.ThemeConfig
 }
