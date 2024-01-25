@@ -1,6 +1,6 @@
 ﻿---
 title: Get Builds
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 `GET /builds/:author/:repository/:branch`

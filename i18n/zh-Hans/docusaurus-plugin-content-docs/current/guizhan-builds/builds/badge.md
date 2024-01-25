@@ -1,6 +1,6 @@
 ﻿---
 title: 获取构建徽章
-sidebar_position: 11
+sidebar_position: 10
 ---
 
 `GET /badge/:author/:repository/:branch/:build`
@@ -15,7 +15,7 @@ sidebar_position: 11
 | `author` | `string` | 项目作者。 |
 | `repository` | `string` | 项目仓库。 |
 | `branch` | `string` | 项目分支。 |
-| `build` | `number` | `"latest"` | 构建编号。使用 "latest" 获取最新构建。 |
+| `build` | `number` | 构建编号。使用`latest`获取最新构建。 |
 
 ## 响应
 
