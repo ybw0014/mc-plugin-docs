@@ -131,6 +131,7 @@ const config: Config = {
       appId: 'O8LFXULH6B',
       apiKey: 'c54e71d1bd5e789ccb299a25f9516559',
       indexName: 'ybw0014',
+      contextualSearch: true,
 
       // replaceSearchResultPathname: {
       //   from: '/docs/', // or as RegExp: /\/docs\//
