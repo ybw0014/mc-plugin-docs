@@ -129,13 +129,13 @@ const config: Config = {
     },
     algolia: {
       appId: 'O8LFXULH6B',
-      apiKey: 'ac2e23d07a978361de96e4dcc0bc951d',
+      apiKey: 'c54e71d1bd5e789ccb299a25f9516559',
       indexName: 'ybw0014',
 
-      replaceSearchResultPathname: {
-        from: '/docs/', // or as RegExp: /\/docs\//
-        to: '/'
-      },
+      // replaceSearchResultPathname: {
+      //   from: '/docs/', // or as RegExp: /\/docs\//
+      //   to: '/'
+      // },
 
       // Optional: Algolia search parameters
       searchParameters: {},
