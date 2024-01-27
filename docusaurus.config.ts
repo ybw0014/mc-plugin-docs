@@ -129,20 +129,9 @@ const config: Config = {
     },
     algolia: {
       appId: 'O8LFXULH6B',
-      apiKey: 'c54e71d1bd5e789ccb299a25f9516559',
+      apiKey: '605a3a11741ab69ff08c45c333e051bf',
       indexName: 'ybw0014',
-      contextualSearch: true,
-
-      // replaceSearchResultPathname: {
-      //   from: '/docs/', // or as RegExp: /\/docs\//
-      //   to: '/'
-      // },
-
-      // Optional: Algolia search parameters
-      searchParameters: {},
-
-      // Optional: path for search page that enabled by default (`false` to disable it)
-      searchPagePath: 'search'
+      contextualSearch: true
     }
   } satisfies Preset.ThemeConfig
 }
