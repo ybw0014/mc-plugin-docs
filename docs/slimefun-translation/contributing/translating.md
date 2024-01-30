@@ -41,8 +41,9 @@ There are a few special lore placeholders that you should keep its arguments as 
 
 - Radioactive
 - Machine
+- Material
 
-There are 2 special lore placeholders: `Radioactive` and `Machine`. The arguments of these 2 placeholders are read as ids, and should **NOT** be translated. If you see something like `%sftrlore_Radioactive_Low%` or `%sftrlore_Machine_Medium_Machine%` in the lore, you should keep them as they are.
+The arguments of these placeholders are read as ids, and should **NOT** be translated. If you see something like `%sftrlore_Radioactive_Low%` or `%sftrlore_Machine_Medium_Machine%` in the lore, you should keep them as they are.
 
 ## Submitting new source strings
 
