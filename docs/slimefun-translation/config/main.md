@@ -1,5 +1,5 @@
 ---
-title: Main config
+title: Main config (config.yml)
 ---
 
 ```yaml title="/plugins/SlimefunTranslation/config.yml"

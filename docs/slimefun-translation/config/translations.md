@@ -68,7 +68,7 @@ messages:
 | `author` | The author of this translation file. |
 | `translations` | All the item translations. See [Item Translations](#item-translations) section. |
 | `lore` | All the lore translations. See [PlaceholderAPI](/slimefun-translation/usage/placeholders) page. |
-| `messages` | All the message translations.|
+| `messages` | All the message translations. |
 
 ### Item Translations
 
@@ -102,7 +102,7 @@ An item translation holds the translations for a single item. It looks like this
 | `lore-overrides` | The lore overrides of this item. Check the following section for more info.<br />Color code `&` and placeholders are supported. |
 | `lore-replacements` | The lore replacements of this item. Check the following section for more info.<br />Color code `&` and placeholders are supported. |
 
-#### Lore, lore overrides and lore replacements
+### Lore, lore overrides and lore replacements
 
 The item lore usually describes the function of the item. Since the lore can be modified at any time, but the translation is fixed, SlimefunTranslation provides 3 ways to cover most of the cases.
 
@@ -111,3 +111,11 @@ The item lore usually describes the function of the item. Since the lore can be 
 - `lore-replacements`: This is a map that describes the text in lines that will be replaced. This is best for some lines that has dynamic text, but some part of it needs to be translated.
 
 When the `lore` field exists, the other fields will be ignored. When none of these 3 fields exist, the lore will not be changed.
+
+## Making own translations
+
+You can choose to make your own translation files, either for your own server or for the future contribution.
+
+Use the command `/sftr translation generate` (See command [usage](/slimefun-translation/usage/commands-and-permissions#generate-translation-file) for more information) to generate the source text file. The source text file will be generated under `/plugins/SlimefunTranslation/translations/<language>/export-X.yml`, where X is a self-increment integer.
+
+Then you can change the source text file to make use of placeholders, or just start translating it.
