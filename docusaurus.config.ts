@@ -129,7 +129,7 @@ const config: Config = {
     },
     algolia: {
       appId: 'O8LFXULH6B',
-      apiKey: '605a3a11741ab69ff08c45c333e051bf',
+      apiKey: 'c54e71d1bd5e789ccb299a25f9516559',
       indexName: 'ybw0014',
       contextualSearch: true
     }
