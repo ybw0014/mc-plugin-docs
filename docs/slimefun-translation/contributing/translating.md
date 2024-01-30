@@ -5,7 +5,7 @@ sidebar_position: 2
 
 SlimefunTranslation aims to translate all Slimefun items (as well as addons) into different languages. If you want to help us translate SlimefunTranslation, please read this page.
 
-## Translating existing text
+## Translating existing strings
 
 SlimefunTranslation uses [Crowdin](https://crowdin.com/project/slimefuntranslation) to manage translations. You can join the project and start translating SlimefunTranslation into your language. If the language you want to translate is not available, please contact us in `#slimefuntranslation` at [Slimefun Addon Community Discord Server](https://discord.gg/SqD3gg5SAU), or dm `@ybw0014`.
 
@@ -13,7 +13,7 @@ Once you submit a translation, you join our translation project and become a mem
 
 ### Placeholders
 
-If you have read the [Placeholders page](/slimefun-translation/getting-started/placeholders), you should know that SlimefunTranslation uses PlaceholderAPI to provide placeholders for the translations. In this case, any available placeholders can be used in translations.
+If you have read the [Placeholders page](/slimefun-translation/usage/placeholders), you should know that SlimefunTranslation uses PlaceholderAPI to provide placeholders for the translations. In this case, any available placeholders can be used in translations.
 
 However, if you changed the format of some placeholders, it may cause problems. It is important to know when to keep the format and when to change it.
 
@@ -44,8 +44,8 @@ There are a few special lore placeholders that you should keep its arguments as 
 
 There are 2 special lore placeholders: `Radioactive` and `Machine`. The arguments of these 2 placeholders are read as ids, and should **NOT** be translated. If you see something like `%sftrlore_Radioactive_Low%` or `%sftrlore_Machine_Medium_Machine%` in the lore, you should keep them as they are.
 
-## Submitting new source text
+## Submitting new source strings
 
-If you want to submit new files of source text, please submit a pull request to our [repository](https://github.com/ybw0014/SlimefunTranslation).
+If you want to submit new files of source string, please submit a pull request to our [repository](https://github.com/ybw0014/SlimefunTranslation).
 
-You can use `/sftr translation generate` command to help you generate the source text file. See [Commands & Permissions](/slimefun-translation/usage/commands-and-permissions) page for more information.
+You can use `/sftr translation generate` command to help you generate the source text file. See the command [usage](/slimefun-translation/usage/commands-and-permissions#generate-translation-file) page for more information.

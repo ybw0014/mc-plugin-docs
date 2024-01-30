@@ -67,7 +67,7 @@ messages:
 | `name` | The display name of this translation file. |
 | `author` | The author of this translation file. |
 | `translations` | All the item translations. See [Item Translations](#item-translations) section. |
-| `lore` | All the lore translations. See [PlaceholderAPI](/slimefun-translation/getting-started/placeholders) page. |
+| `lore` | All the lore translations. See [PlaceholderAPI](/slimefun-translation/usage/placeholders) page. |
 | `messages` | All the message translations. |
 
 ### Item Translations
@@ -116,6 +116,6 @@ When the `lore` field exists, the other fields will be ignored. When none of the
 
 You can choose to make your own translation files, either for your own server or for the future contribution.
 
-Use the command `/sftr translation generate` (See [Commands & Permissions](/slimefun-translation/usage/commands-and-permissions) page for more information) to generate the source text file. The source text file will be generated under `/plugins/SlimefunTranslation/translations/<language>/export-X.yml`, where X is a self-increment integer.
+Use the command `/sftr translation generate` (See command [usage](/slimefun-translation/usage/commands-and-permissions#generate-translation-file) for more information) to generate the source text file. The source text file will be generated under `/plugins/SlimefunTranslation/translations/<language>/export-X.yml`, where X is a self-increment integer.
 
 Then you can change the source text file to make use of placeholders, or just start translating it.
