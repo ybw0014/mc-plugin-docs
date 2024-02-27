@@ -1,5 +1,5 @@
 ---
-title: Translations
+title: Managing Translations
 sidebar_position: 2
 ---
 
