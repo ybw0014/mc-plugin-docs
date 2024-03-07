@@ -27,6 +27,8 @@ And add the following dependency to **&lt;dependencies&gt;** section:
 </dependency>
 ```
 
+[![Jitpack badge](https://jitpack.io/v/net.guizhanss/SlimefunTranslation.svg)](https://jitpack.io/#net.guizhanss/SlimefunTranslation)
+
 Replace `VERSION` with the version you want to use.  
 Click [here](https://jitpack.io/#net.guizhanss/SlimefunTranslation) to check all available versions.
 
@@ -49,6 +51,8 @@ dependencies {
     compileOnly 'net.guizhanss:SlimefunTranslation:VERSION'
 }
 ```
+
+[![Jitpack badge](https://jitpack.io/v/net.guizhanss/SlimefunTranslation.svg)](https://jitpack.io/#net.guizhanss/SlimefunTranslation)
 
 Replace `VERSION` with the version you want to use.  
 Click [here](https://jitpack.io/#net.guizhanss/SlimefunTranslation) to check all available versions.

@@ -65,7 +65,7 @@ messages:
 | Field | Description |
 | --- | --- |
 | `name` | The display name of this translation file. |
-| `author` | The author of this translation file. |
+| `conditions` | The [conditions](#conditions) to apply to all the items in the current file. |
 | `translations` | All the item translations. See [Item Translations](#item-translations) section. |
 | `lore` | All the lore translations. See [PlaceholderAPI](/slimefun-translation/usage/placeholders) page. |
 | `messages` | All the message translations. |
@@ -76,8 +76,9 @@ An item translation holds the translations for a single item. It looks like this
 
 ```yaml
   RAG:
-    check-name: false
-    force: false
+    conditions:
+      match-name: false
+      force-load: false
     name: "&cRag"
     lore:
       - ""
@@ -95,12 +96,22 @@ An item translation holds the translations for a single item. It looks like this
 
 | Field | Description |
 | --- | --- |
-| `check-name` | Whether to check the name of the item.<br />This config should be set to `true` when the item is also used as a category item. |
-| `force` | Whether to force load the translation.<br />The item ID will be checked while loading the translation. Set this to `true` to cancel the check. |
+| `conditions` | The [conditions](#conditions) to apply to the item. |
 | `name` | The display name of this item.<br />Color code `&` and placeholders are supported. |
 | `lore` | The lore of this item. Check the following section for more info.<br />Color code `&` and placeholders are supported. |
 | `lore-overrides` | The lore overrides of this item. Check the following section for more info.<br />Color code `&` and placeholders are supported. |
 | `lore-replacements` | The lore replacements of this item. Check the following section for more info.<br />Color code `&` and placeholders are supported. |
+
+### Conditions
+
+The conditions will be applied to the item. Item conditions will override file conditions.
+
+- `force-load`: Whether to force load the translation. SlimefunTranslation checks whether the items is registered, enable this to skip the check. Useful for UI/ItemGroup items.
+- `match-name`: Whether the actual item's name must match the original item's name. Slimefun uses Slimefun items as ItemGroup items, enable this option for those items.
+- `match-lore`: Whether the actual item's lore must match the original item's lore. Some Slimefun items are displayed as fuel in the guide, the lore is changed. Enable this option for those items. (This check has bad performance, try not to enable this option)
+- `partial-override`: Whether to only override the lore partially. When this is set to `true`, the translation only applies to the lines that are defined. The remaining lines will be kept. When this is set to `false`, the translation will override the entire lore.
+
+When `match-name` and `match-lore` are both enabled and only name matches, only the name will be translated.
 
 ### Lore, lore overrides and lore replacements
 
