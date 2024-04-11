@@ -31,11 +31,11 @@
     "@docusaurus/tsconfig": "3.1.1",
     "@docusaurus/types": "3.1.1",
     "@guizhan/eslint-config": "^0.2.1",
-    "@typescript-eslint/eslint-plugin": "^6.19.1",
-    "@typescript-eslint/parser": "^6.19.1",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
     "eslint": "^8.56.0",
     "eslint-plugin-import": "^2.29.1",
-    "typescript": "~5.3.3"
+    "typescript": "~5.4.0"
   },
   "browserslist": {
     "production": [
