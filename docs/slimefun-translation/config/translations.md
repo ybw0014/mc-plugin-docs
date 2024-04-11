@@ -33,7 +33,7 @@ The files under each "language" directory (including subdirectories) are transla
 - The file extension is `.yml` or `.yaml`.
 - The filename does not start with a period (`.`) or an underscore (`_`). (e.g. `.example.yml` or `_example.yml` will not be loaded)
 
-## Content
+## Translation file
 
 A translation file looks like this:
 

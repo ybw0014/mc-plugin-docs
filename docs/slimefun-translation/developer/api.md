@@ -1,15 +1,18 @@
 ---
-title: Using translations
+title: API methods
 sidebar_position: 2
 ---
 
-You can access our API by `SlimefunTranslationAPI` class.
+You can access our API by `SlimefunTranslationAPI` class.  
+(`net.guizhanss.slimefuntranslation.api.SlimefunTranslationAPI`)
+
+Avoid accessing other classes/methods directly, as they are subject to change.
 
 ## Methods
 
 ### Get the `User`
 
-`User` stores the player's language.
+A `User` represents an online player, it stores the player's language and some other information.
 
 ```java
 SlimefunTranslationAPI.getUser(UUID uuid)
@@ -44,7 +47,7 @@ If there is no available translation for the item, the default item name is retu
 SlimefunTranslationAPI.translateItem(User user, ItemStack item)
 ```
 
-The method translates the item for the given `User`. It returns a boolean value representing whether the translation is applied to the item. Check out ["How do translations work?"](/slimefun-translation/getting-started/how) page for more information.
+The method translates the item for the given `User`. It returns a boolean value representing whether the translation is applied to the item. Check out ["How do translations work?"](/slimefun-translation/usage/how) page for more information.
 
 :::warning
 

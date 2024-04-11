@@ -1,6 +1,6 @@
 ---
 title: Placeholders
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 SlimefunTranslation utilizes PlaceholderAPI to provide placeholders for the translations. In this case, any available placeholders can be used in translations.
