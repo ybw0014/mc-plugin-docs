@@ -16,4 +16,3 @@ The plugin changes the packets of:
 ## Identifying items
 
 All the Slimefun items have a `slimefun:slimefun_item` NBT. This plugin only changes items with this NBT.
-
