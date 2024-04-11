@@ -47,7 +47,7 @@ If there is no available translation for the item, the default item name is retu
 SlimefunTranslationAPI.translateItem(User user, ItemStack item)
 ```
 
-The method translates the item for the given `User`. It returns a boolean value representing whether the translation is applied to the item. Check out ["How do translations work?"](/slimefun-translation/getting-started/how) page for more information.
+The method translates the item for the given `User`. It returns a boolean value representing whether the translation is applied to the item. Check out ["How do translations work?"](/slimefun-translation/usage/how) page for more information.
 
 :::warning
 
