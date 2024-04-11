@@ -12,5 +12,6 @@ SlimefunTranslation is a Slimefun Addon that translates Slimefun items (also sup
 
 ## Quick links
 
-- [Installing](/slimefun-translation/getting-started/installing)
+- [Installing](/slimefun-translation/installing)
 - [Commands & Permissions](/slimefun-translation/usage/commands-and-permissions)
+- [Developer Reference](/slimefun-translation/developer/reference)

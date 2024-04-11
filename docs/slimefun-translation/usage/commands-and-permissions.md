@@ -29,7 +29,7 @@ Command: `/sftr translation extract <true/false>`
 Permission: `slimefuntranslation.command.translation.extract`  
 Default: `op`
 
-Extract all the embeded translation files to *translations* folder.
+Extract all the bundled translation files to *translations* folder.
 
 The parameter determines whether to replace existing files.
 

@@ -1,15 +1,18 @@
 ---
-title: Using translations
+title: API methods
 sidebar_position: 2
 ---
 
-You can access our API by `SlimefunTranslationAPI` class.
+You can access our API by `SlimefunTranslationAPI` class.  
+(`net.guizhanss.slimefuntranslation.api.SlimefunTranslationAPI`)
+
+Avoid accessing other classes/methods directly, as they are subject to change.
 
 ## Methods
 
 ### Get the `User`
 
-`User` stores the player's language.
+A `User` represents an online player, it stores the player's language and some other information.
 
 ```java
 SlimefunTranslationAPI.getUser(UUID uuid)

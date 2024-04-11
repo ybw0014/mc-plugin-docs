@@ -126,7 +126,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['java']
+      additionalLanguages: ['java', 'groovy']
     },
     algolia: {
       appId: 'O8LFXULH6B',

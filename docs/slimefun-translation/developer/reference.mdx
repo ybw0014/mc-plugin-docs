@@ -3,10 +3,17 @@ title: Developer Reference
 sidebar_position: 1
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## Adding SlimefunTranslation as a dependency
 
-### Maven
+You can add SlimefunTranslation as a dependency from [Jitpack](https://jitpack.io/#net.guizhanss/SlimefunTranslation).
 
+[![Jitpack badge](https://jitpack.io/v/net.guizhanss/SlimefunTranslation.svg)](https://jitpack.io/#net.guizhanss/SlimefunTranslation)
+
+<Tabs>
+  <TabItem value="maven" label="Maven" default>
 Add the following repository to **&lt;repositories&gt;** section:
 
 ```xml
@@ -27,13 +34,9 @@ And add the following dependency to **&lt;dependencies&gt;** section:
 </dependency>
 ```
 
-[![Jitpack badge](https://jitpack.io/v/net.guizhanss/SlimefunTranslation.svg)](https://jitpack.io/#net.guizhanss/SlimefunTranslation)
-
 Replace `VERSION` with the version you want to use.  
-Click [here](https://jitpack.io/#net.guizhanss/SlimefunTranslation) to check all available versions.
-
-### Gradle
-
+  </TabItem>
+  <TabItem value="gradle" label="Gradle (Groovy)">
 Repository:
 
 ```groovy
@@ -52,7 +55,25 @@ dependencies {
 }
 ```
 
-[![Jitpack badge](https://jitpack.io/v/net.guizhanss/SlimefunTranslation.svg)](https://jitpack.io/#net.guizhanss/SlimefunTranslation)
+Replace `VERSION` with the version you want to use.  
+  </TabItem>
+  <TabItem value="gradle-kt" label="Gradle (Kotlin)">
+Repository:
+
+```kts
+repositories {
+    maven("https://jitpack.io")
+}
+```
+
+Dependency:
+
+```kts
+dependencies {
+    compileOnly("net.guizhanss:SlimefunTranslation:VERSION")
+}
+```
 
 Replace `VERSION` with the version you want to use.  
-Click [here](https://jitpack.io/#net.guizhanss/SlimefunTranslation) to check all available versions.
+  </TabItem>
+</Tabs>

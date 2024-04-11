@@ -1,6 +1,6 @@
 ---
 title: Installing SlimefunTranslation
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 SlimefunTranslation is a Slimefun Addon, so make sure you have installed Slimefun first. [Click here](https://github.com/Slimefun/Slimefun4/wiki/Installing-Slimefun) to learn how to install Slimefun.
