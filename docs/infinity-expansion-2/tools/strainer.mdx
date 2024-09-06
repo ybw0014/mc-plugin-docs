@@ -1,0 +1,73 @@
+---
+sidebar_position: 2
+---
+
+import ImageGallery from '@site/src/components/ImageGallery'
+
+# Strainer
+
+Strainer is an early game tool to gather resources from water.
+
+<ImageGallery images={[
+  { src: '/images/infinity-expansion-2/strainer.png', alt: 'Strainer & Strainer Base' }
+]} />
+
+To gather resources from strainer, you will need a **Strainer Base** and any type of **Strainer**.
+
+## Usage
+
+Put the Strainer Base in the water, or anywhere else then make it [waterlogged](https://minecraft.wiki/w/Waterlogging).
+
+Then, put in a Strainer to start gathering resources.
+
+<details>
+<summary>How to place cargo node on strainer base?</summary>
+
+You cannot place cargo node on a strainer base directly. However, you can do the following:
+
+1. Break the Strainer Base, place a chest at the same location.
+2. Place the cargo node on the side of the chest.
+3. Replace the chest with the Strainer Base.
+
+</details>
+
+## Information
+
+There are 3 tiers of Strainer:
+
+| Tier | Chance |
+| ---- | ------ |
+| Basic | 30% |
+| Advanced | 60% |
+| Reinforced | 90% |
+
+* The chance is rolled each time the Strainer Base operates. If it fails, the Strainer will not lose any durability, but cannot gather any resources.
+
+### Strainer Durability
+
+Every strainer have the same durability: 64.
+
+Each run has chance to reduce the durability by 1.
+
+The chance is calculated by this formula:
+
+$$
+\frac{1}{1 + 3 \cdot U + M}
+$$
+
+Where:
+
+- $U$ is the level of **Unbreaking** enchantment on the Strainer.
+- $M$ is the level of **Mending** enchantment on the Strainer.
+
+:::warning
+
+**Unbreakable** attribute will not work on Strainer.
+
+:::
+
+## Configuration
+
+### `tick-rate` on Strainer Base
+
+Check [this](/infinity-expansion-2/config/items#tick-rate) for more information.

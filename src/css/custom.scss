@@ -78,3 +78,31 @@
     var(--ifm-color-emphasis-100) 100%
   );
 }
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .image {
+    text-align: center;
+    margin: 0 10px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .caption {
+      font-size: 0.8em;
+      color: var(--ifm-font-color-base);
+    }
+  }
+}
+
+table {
+  width: 100%;
+  td:nth-child(1) {
+    white-space: nowrap;
+  }
+}
