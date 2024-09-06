@@ -81,15 +81,21 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'slimefun-translation',
+          sidebarId: 'genetic-chickengineering',
           position: 'left',
-          label: 'SlimefunTranslation'
+          label: 'GeneticChickengineering'
         },
         {
           type: 'docSidebar',
           sidebarId: 'infinity-expansion-2',
           position: 'left',
           label: 'InfinityExpansion2'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'slimefun-translation',
+          position: 'left',
+          label: 'SlimefunTranslation'
         },
         {
           href: 'https://github.com/ybw0014/mc-plugin-docs',
