@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Websites
 
-- [Guizhan Builds API](/guizhan-builds/)
+- [Guizhan Builds API](/guizhan-builds/api/reference)
 
 ## Plugins
 
