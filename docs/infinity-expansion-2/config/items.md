@@ -2,13 +2,13 @@
 sidebar_position: 2
 ---
 
-# Item specific configurations
+# `Items.yml`
 
 There are some config options that are specific to items. You can find them in `/plugins/Slimefun/Items.yml`, under the specific item's config options.
 
 ## `tick-rate` {#tick-rate}
 
-This determines how often the machine runs in Slimefun ticks.  
+This determines **how often the machine runs, in Slimefun ticks**.  
 When the machine is not running, it will not consume any energy.
 
 By default, the tick rate is 1, which means the machine runs every Slimefun tick. If you set it to 5, the machine will run every 5 Slimefun ticks.
@@ -25,7 +25,7 @@ This determines how much energy the machine consumes per tick or use.
 
 :::info
 
-The energy per tick is actually energy per run, which is affected by [tick rate](#tick-rate).
+The energy per tick is actually energy **per run**, which is affected by [tick rate](#tick-rate).
 
 Machines only consume energy when they run.
 

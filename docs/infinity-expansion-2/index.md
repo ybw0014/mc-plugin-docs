@@ -13,5 +13,5 @@ InfinityExpansion 2 also has a in-game guide to introduce the addon to players. 
 
 ## Quick links
 
-- [Installing](/infinity-expansion-2/installing/)
-- [Translating](/infinity-expansion-2/translation/)
+- [⚙️ First Install](/infinity-expansion-2/first-install)
+- [🌐 Translation](/infinity-expansion-2/translation)
