@@ -36,8 +36,8 @@
     "@docusaurus/tsconfig": "3.5.2",
     "@docusaurus/types": "3.5.2",
     "@guizhan/eslint-config": "^0.2.1",
-    "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "@typescript-eslint/parser": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
     "eslint": "^8.56.0",
     "eslint-plugin-import": "^2.29.1",
     "typescript": "~5.4.0"
