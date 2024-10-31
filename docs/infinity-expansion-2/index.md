@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Home
+# 🏠 Home
 
 This is the official documentation website for InfinityExpansion 2.
 
