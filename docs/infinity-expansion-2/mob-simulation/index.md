@@ -1,3 +1,0 @@
-# Mob Simulation
-
-(WIP)

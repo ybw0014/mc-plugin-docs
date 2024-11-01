@@ -1,3 +1,5 @@
 ﻿label: 🗄️ Storage
 position: 20
 collapsed: true
+link:
+  type: generated-index
