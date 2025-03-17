@@ -15,14 +15,6 @@
     "message": "物品",
     "description": "The label for category Items in sidebar bump"
   },
-  "sidebar.slimefun-translation.category.Usage": {
-    "message": "使用",
-    "description": "The label for category Usage in sidebar slimefun-translation"
-  },
-  "sidebar.slimefun-translation.category.Settings": {
-    "message": "设置",
-    "description": "The label for category Settings in sidebar slimefun-translation"
-  },
   "sidebar.guizhan-builds.category.API": {
     "message": "API",
     "description": "The label for category API in sidebar guizhan-builds"
@@ -34,5 +26,53 @@
   "sidebar.guizhan-builds.category.Builds": {
     "message": "构建",
     "description": "The label for category Builds in sidebar guizhan-builds"
+  },
+  "sidebar.genetic-chickengineering.category.Basic Steps": {
+    "message": "基本步骤",
+    "description": "The label for category Basic Steps in sidebar genetic-chickengineering"
+  },
+  "sidebar.genetic-chickengineering.category.Miscellaneous": {
+    "message": "其他",
+    "description": "The label for category Miscellaneous in sidebar genetic-chickengineering"
+  },
+  "sidebar.infinity-expansion-2.category.🛠️ Configurations": {
+    "message": "🛠️ 配置",
+    "description": "The label for category 🛠️ Configurations in sidebar infinity-expansion-2"
+  },
+  "sidebar.infinity-expansion-2.category.🔨 Tools": {
+    "message": "🔨 工具",
+    "description": "The label for category 🔨 Tools in sidebar infinity-expansion-2"
+  },
+  "sidebar.infinity-expansion-2.category.🏭 Machines": {
+    "message": "🏭 机器",
+    "description": "The label for category 🏭 Machines in sidebar infinity-expansion-2"
+  },
+  "sidebar.infinity-expansion-2.category.⚡ Generators": {
+    "message": "⚡ 发电机",
+    "description": "The label for category ⚡ Generators in sidebar infinity-expansion-2"
+  },
+  "sidebar.infinity-expansion-2.category.🤖 Mob Simulation": {
+    "message": "🤖 生物模拟",
+    "description": "The label for category 🤖 Mob Simulation in sidebar infinity-expansion-2"
+  },
+  "sidebar.infinity-expansion-2.category.🗄️ Storage": {
+    "message": "🗄️ 存储",
+    "description": "The label for category 🗄️ Storage in sidebar infinity-expansion-2"
+  },
+  "sidebar.slimefun-translation.category.Getting Started": {
+    "message": "入门",
+    "description": "The label for category Getting Started in sidebar slimefun-translation"
+  },
+  "sidebar.slimefun-translation.category.Configurations": {
+    "message": "配置",
+    "description": "The label for category Configurations in sidebar slimefun-translation"
+  },
+  "sidebar.slimefun-translation.category.Using SlimefunTranslation": {
+    "message": "使用插件",
+    "description": "The label for category Using SlimefunTranslation in sidebar slimefun-translation"
+  },
+  "sidebar.slimefun-translation.category.Developer": {
+    "message": "开发者",
+    "description": "The label for category Developer in sidebar slimefun-translation"
   }
 }

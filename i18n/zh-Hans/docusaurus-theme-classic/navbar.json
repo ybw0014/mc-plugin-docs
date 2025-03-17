@@ -12,7 +12,7 @@
     "description": "Navbar item with label Bump"
   },
   "item.label.SlimefunTranslation": {
-    "message": "SlimefunTranslation",
+    "message": "粘液翻译",
     "description": "Navbar item with label SlimefunTranslation"
   },
   "item.label.GitHub": {
@@ -22,5 +22,13 @@
   "item.label.Guizhan Builds": {
     "message": "鬼斩构建站",
     "description": "Navbar item with label Guizhan Builds"
+  },
+  "item.label.GeneticChickengineering": {
+    "message": "鸡因工程",
+    "description": "Navbar item with label GeneticChickengineering"
+  },
+  "item.label.InfinityExpansion2": {
+    "message": "无尽贪婪2",
+    "description": "Navbar item with label InfinityExpansion2"
   }
 }
