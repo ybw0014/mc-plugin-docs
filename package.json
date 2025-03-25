@@ -20,7 +20,7 @@
     "@docusaurus/preset-classic": "3.7.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
-    "docusaurus-plugin-image-zoom": "^2.0.0",
+    "docusaurus-plugin-image-zoom": "^3.0.0",
     "docusaurus-plugin-sass": "^0.2.5",
     "nodejieba": "^3.0.0",
     "prism-react-renderer": "^2.3.0",
