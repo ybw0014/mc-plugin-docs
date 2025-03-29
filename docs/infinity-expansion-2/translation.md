@@ -8,7 +8,7 @@ InfinityExpansion2 has built-in localization support for almost everything.
 
 ## Changing your server language
 
-You can change the language for your server by modifying [`config.yml`](/infinity-expansion-2/config/main).
+You can change the language for your server in [`config.yml`](/infinity-expansion-2/config/main).
 
 ## Changing your personal language
 
@@ -21,7 +21,6 @@ But if you have a lot of international players, they can simply override it and 
 
 To do this, just go to the "Settings" section of your Slimefun Guide (Shift - Right Click the Slimefun Guide while holding it in your hand). There you should see a globe or a flag which allows you to select a language.
 
+## Contributing translations
 
- The translation project is hosted on [Crowdin](https://crowdin.com/project/infinityexpansion2).
-
-InfinityExpansion2 also supports [SlimefunTranslation](/slimefun-translation/) for per-player translation.
+The translation project is hosted on [Crowdin](https://crowdin.com/project/infinityexpansion2).

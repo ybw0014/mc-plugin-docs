@@ -22,6 +22,7 @@ The config options listed here may be outdated as the addon updates.
 | `balance` | [Balance options](#balance). | | |
 | `resource-synthesizer` | [Resource Synthesizer options](#resource-synthesizer). | | |
 | `mob-simulation` | [Mob Simulation options](#mob-simulation). | | |
+| `storage` | [Storage options](#storage). | | |
 | `quarry` | [Quarry options](#quarry). | | |
 | `advanced-anvil` | [Advanced Anvil options](#advanced-anvil). | | |
 | `infinity-gear-enchantments` | [Infinity gear enchantment options](#infinity-gear-enchantment). | | |
@@ -80,15 +81,15 @@ InfinityExpansion2 items are all prefixed with `IE_`.
 
 ### `output-interval` {#mob-simulation-output-interval}
 
-See the [item specific configuration](/infinity-expansion-2/config/items#output-interval).
+Check out [item specific configuration section](/infinity-expansion-2/config/items#output-interval).
 
 ### `allow-stacked-card` {#mob-simulation-allow-stacked-card}
 
 Whether to allow cards to be stacked.
 
 Since InfinityExpansion2, the mob data card can be a stacked item.  
-When this is `true`, the products will be multiplied by the stack size, and the energy consumption remains same.  
-When this is `false`, the products are always same for 1x card.
+When this is `true`, the product amount and energy consumption will be multiplied by the stack size.
+When this is `false`, the product amount and energy consumption are always same for 1x card.
 
 **Values**: `true`/`false`  
 **Default**: `false`
@@ -110,11 +111,51 @@ Legacy mode: The chance of each drop is its weight. Only one will be dropped.
 **Values**: `true`/`false`  
 **Default**: `false`
 
+## Storage options {#storage}
+
+:::tip Suggestion
+
+It is recommended to enable only one option between signs and holograms. The extra ticker for storage information runs in main thread.
+
+:::
+
+### `enable-signs` {#storage-enable-signs}
+
+Whether to enable signs for storage units.
+
+When enabled, the storage units will try to find one and only one attached sign in 6 directions (first found, first used). The stored item name and amount will be displayed on the sign.
+
+**Values**: `true`/`false`  
+**Default**: `false`
+
+### `sign-update-interval` {#storage-sign-update-interval}
+
+The interval of updating signs, in Slimefun ticks.
+
+**Range**: `1` to `3600`  
+**Default**: `20`
+
+### `enable-holograms` {#storage-enable-holograms}
+
+Whether to enable holograms for storage units.
+
+When enabled, the storage units will show the item amount in holograms.
+
+**Values**: `true`/`false`
+**Default**: `false`
+
+### `hologram-update-interval` {#storage-hologram-update-interval}
+
+The interval of updating holograms, in Slimefun ticks.
+
+**Range**: `1` to `3600`  
+**Default**: `20`
+
 ## Quarry options {#quarry}
 
 ### `output-interval` {#quarry-output-interval}
 
-See the [item specific configuration](/infinity-expansion-2/config/items#output-interval).
+Check out [item specific configuration section](/infinity-expansion-2/config/items#output-interval).
 
 ### `pools` {#quarry-pools}
 

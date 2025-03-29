@@ -56,3 +56,7 @@ Replace the URL with the mirror repository you want to use.
 You can also download the libraries manually and place them in the `plugins/InfinityExpansion2/libraries` folder, if you know how to do it.
 
 :::
+
+## Configuration
+
+InfinityExpansion2 provides more customization options than the original InfinityExpansion plugin. You will want to check all the options in different configuration files. Check out [configuration](/infinity-expansion-2/config/) for more information.

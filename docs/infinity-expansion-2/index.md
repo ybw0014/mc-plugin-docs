@@ -11,6 +11,12 @@ It is a rewrite of the original [InfinityExpansion by Mooy1](https://github.com/
 
 InfinityExpansion 2 also has a in-game guide to introduce the addon to players. You can access the guide in the Slimefun guide.
 
+:::info
+
+Find the items in their respective categories in the sidebar, or use the search bar at top right.
+
+:::
+
 ## Quick links
 
 - [⚙️ First Install](/infinity-expansion-2/first-install)
