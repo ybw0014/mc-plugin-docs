@@ -16,10 +16,10 @@ If the gear can be enchanted with the enchantments from the right input, the pre
 
 **Energy consumption**: 12,000 J per use
 
+The maximum enchantment levels are defined in the [config](/infinity-expansion-2/config/main#advanced-anvil).
+
 :::info default values
 
 Some of these information can be changed in the [item specific configurations](/infinity-expansion-2/config/items) by server owners. The wiki only shows the default values. Check the actual information in-game.
 
 :::
-
-The maximum enchantment levels are defined in the [config](/infinity-expansion-2/config/main#advanced-anvil).

@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Resource Synthesizer
 
-Resource Synthesizer is an electric machine that creates resources by combining 2 Singularities together.
+Resource Synthesizer is an electric machine that creates resources by combining 2 Singularities together (although you may see ingredients are not singularities because the recipes are customizable).
 
 ## Information
 

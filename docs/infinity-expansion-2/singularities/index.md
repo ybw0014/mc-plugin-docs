@@ -12,4 +12,4 @@ The singularity item guide page has a special layout. The top-middle item indica
 
 Server owners can modify the total progress (`default-progress`) of each singularity in the [item specific configurations](/infinity-expansion-2/config/items).
 
-The final progress needed is calculated by multiplying the total progress of the singularity by the [singularity cost multiplier](/infinity-expansion-2/config/main#balance-singularity-cost-multiplier).
+The final progress needed is calculated by multiplying the total progress of the singularity by the [singularity cost multiplier](/infinity-expansion-2/config/main#singularity-cost-multiplier).

@@ -14,6 +14,8 @@ Place the gear you want to transform in the Gear slot and the target material it
 
 **Energy consumption**: 12,000 J/t
 
+Slimefun items can be transformed if enabled in [the config](/infinity-expansion-2/config/main#gear-transformer-allow-sf-items).
+
 :::info default values
 
 Some of these information can be changed in the [item specific configurations](/infinity-expansion-2/config/items) by server owners. The wiki only shows the default values. Check the actual information in-game.

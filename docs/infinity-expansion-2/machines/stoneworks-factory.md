@@ -66,3 +66,6 @@ The default procedure, simply passes the cobblestones to the next slot.
 | Cobblestone | Andesite |
 | Andesite | Diorite |
 | Diorite | Granite |
+| Stone | Deepslate |
+| Sand | Suspicious Sand |
+| Gravel | Suspicious Gravel |

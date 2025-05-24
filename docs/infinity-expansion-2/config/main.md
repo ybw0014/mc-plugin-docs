@@ -19,7 +19,9 @@ The config options listed here may be outdated as the addon updates.
 | `auto-update` | Automatically updates the addon when a new version is available. | `true`/`false` | `true` |
 | `debug` | Enables debug logs. | `true`/`false` | `false` |
 | `lang` | The default language of this addon. | [Language codes](https://github.com/ybw0014/InfinityExpansion2/tree/master/src/main/resources/lang) | `en` |
-| `balance` | [Balance options](#balance). | | |
+| `enable-researches` | Whether to enable researches. | `true`/`false` | `false` |
+| `singularity` | [Singularity options](#singularity). | | |
+| `gear-transformer` | [Gear Transformer options](#gear-transformer). | | |
 | `resource-synthesizer` | [Resource Synthesizer options](#resource-synthesizer). | | |
 | `mob-simulation` | [Mob Simulation options](#mob-simulation). | | |
 | `storage` | [Storage options](#storage). | | |
@@ -27,25 +29,20 @@ The config options listed here may be outdated as the addon updates.
 | `advanced-anvil` | [Advanced Anvil options](#advanced-anvil). | | |
 | `infinity-gear-enchantments` | [Infinity gear enchantment options](#infinity-gear-enchantment). | | |
 
-## Balance options {#balance}
+## Singularity options {#singularity}
 
-### `singularity-cost-multiplier` {#balance-singularity-cost-multiplier}
+### `cost-multiplier` {#singularity-cost-multiplier}
 
 This affects the final cost of crafting [Singularities](/infinity-expansion-2/singularities/).
 
 **Range**: `0.0` to `1000.0`  
 **Default**: `1.0`
 
-### `allow-sf-item-transform` {#balance-allow-sf-item-transform}
+## Gear Transformer options {#gear-transformer}
+
+### `allow-sf-items` {#gear-transformer-allow-sf-items}
 
 This affects [Gear Transformer](/infinity-expansion-2/machines/gear-transformer). When this is `true`, Gear Transformer will be able to convert Slimefun items.
-
-**Values**: `true`/`false`  
-**Default**: `false`
-
-### `enable-researches` {#balance-enable-researches}
-
-Whether to enable researches.
 
 **Values**: `true`/`false`  
 **Default**: `false`
@@ -73,7 +70,7 @@ An example section:
 
 :::tip
 
-InfinityExpansion2 items are all prefixed with `IE_`.
+Hold an item in your main hand and use `/ie2 id` command get the ID of the item.
 
 :::
 
@@ -93,6 +90,12 @@ When this is `false`, the product amount and energy consumption are always same 
 
 **Values**: `true`/`false`  
 **Default**: `false`
+
+:::tip
+
+Make sure to adjust the energy capacity of Mob Simulation Chamber so it can have enough energy for the stacked cards with base consumption.
+
+:::
 
 ### `exp-multiplier` {#mob-simulation-exp-multiplier}
 

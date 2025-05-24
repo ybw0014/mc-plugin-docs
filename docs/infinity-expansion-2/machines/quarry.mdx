@@ -1,0 +1,53 @@
+---
+sidebar_position: 15
+---
+
+import ImageGallery from '@site/src/components/ImageGallery'
+
+# Quarry
+
+Quarry is an electric machine that generates resources from thin air.
+
+## Usage
+
+*(Optional)* You can put an [Oscillator](/infinity-expansion-2/tools/oscillator) in the input slot to increase the chance to obtain specific resource.
+
+## Information
+
+There are 4 tiers of Quarry:
+
+| Tier | Speed* | Chance | Energy consumption (J/t) |
+| ---- | ------------ | ------------- | ------------------------ |
+| Basic | 1 | 15% | 300 |
+| Advanced | 2 | 25% | 900 |
+| Void | 4 | 50% | 3,600 |
+| Infinity | 64 | 100% | 36,000 |
+
+- The **Speed** is how many items are generated per run.
+- **Chance** is configurable.
+- You can also disable a specific quarry in a specific world type. For example, if your server has multiple Overworlds, and you want to disable Basic Quarry in all the Overworlds, you can disable it in the [item specific configurations](/infinity-expansion-2/config/items) instead of in each world's config.
+
+:::info default values
+
+Some of these information can be changed in the [item specific configurations](/infinity-expansion-2/config/items) by server owners. The wiki only shows the default values. Check the actual information in-game.
+
+:::
+
+## How does Quarry work?
+
+1. The Quarry will select the pool (defined in [config](/infinity-expansion-2/config/main#quarry-pools)) according to the current world type (Overworld, Nether, End).
+2. The **Chance** of Quarry will determine if the Quarry should pick an item from the pool.
+3. If the Quarry should not pick from pool, the base product will be generated instead, and the output procedure ends here.
+4. The Quarry will check if there is a valid Oscillator in the input slot. If there is, the Quarry will pick an item from the pool according to the Oscillator's settings.
+
+## Understanding In-game Guide
+
+<ImageGallery images={[
+  { src: '/images/infinity-expansion-2/quarry-guide.png', alt: 'In-game Guide of Quarry' }
+]} />
+
+The above image shows one pool of Quarry in the Slimefun Guide.
+
+The top left icon indicates this is a Overworld pool. The bottom left item is the **base product**, and the amount of base product is the **Speed** of the Quarry.
+
+The rest of items are **pool items**. The amount of each item is the weight of the item. In the given example, coal has a weight of 4, and copper has a weight of 2, while the other items have a weight of 1.

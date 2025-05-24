@@ -8,7 +8,7 @@ Vein Miner Rune is a rune that applies **Vein Miner** to the tool it is applied 
 
 :::warning
 
-**Vein Miner** is not a real enchantment. Once you remove InfinityExpansion2 from your server, it will not work.
+**Vein Miner** is not a real enchantment. If the Vein Miner Rune is disabled, **Vein Miner** will not work.
 
 :::
 
@@ -22,4 +22,4 @@ Activating **Vein Miner** will consume 1 hunger point.
 
 ## Supported Blocks
 
-Check the [source code](https://github.com/GuizhanCraft/InfinityExpansion2/blob/master/src/main/kotlin/net/guizhanss/infinityexpansion2/implementation/items/tools/VeinMinerRune.kt#L24). Any vanilla block whose Material name contains one of the strings in the list will be supported.
+Check the [source code](https://github.com/GuizhanCraft/InfinityExpansion2/blob/master/src/main/resources/tags/vein_miner_blocks.json) here. Any vanilla block whose Material name contains one of the strings in the list will be supported.

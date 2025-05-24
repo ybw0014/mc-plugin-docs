@@ -12,10 +12,10 @@ There are 4 tiers of Tree Grower:
 
 | Tier | Output interval | Energy consumption (J/t) |
 | ---- | ----- | ------------------------ |
-| Basic | 600 | 36 |
-| Advanced | 120 | 180 |
-| Void | 60 | 540 |
-| Infinity | 12 | 2,000 |
+| Basic | 300 | 36 |
+| Advanced | 60 | 180 |
+| Void | 30 | 540 |
+| Infinity | 10 | 2,000 |
 
 :::info default values
 
@@ -36,9 +36,3 @@ Some of these information can be changed in the [item specific configurations](/
 | Warped Fungus | Warped Hyphae x8, Warped Stem x6, Shroomlight |
 | Crimson Fungus | Crimson Hyphae x8, Crimson Stem x6, Weeping Vines |
 | Cherry Sapling | Cherry Leaves x8, Cherry Log x6, Stick |
-
-:::info
-
-Cherry recipe is only available on Minecraft 1.20 and above.
-
-:::

@@ -8,7 +8,7 @@ GEO Quarry is an electric machine that generates GEO resources from thin air.
 
 ## Usage
 
-GEO Scan is not required, but you can scan the chunk to see what items are generated.
+GEO Scan is not required, but you can scan the chunk to see what items are generated. GEO Quarry only generates items that have supply in the chunk.
 
 ## Information
 
