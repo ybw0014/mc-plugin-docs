@@ -23,4 +23,4 @@ To do this, just go to the "Settings" section of your Slimefun Guide (Shift - Ri
 
 ## Contributing translations
 
-The translation project is hosted on [Crowdin](https://crowdin.com/project/infinityexpansion2).
+The translation project is hosted on [Crowdin](https://crowdin.ybw0014.dev).
