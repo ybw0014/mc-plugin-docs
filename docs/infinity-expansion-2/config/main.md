@@ -14,20 +14,26 @@ The config options listed here may be outdated as the addon updates.
 
 :::
 
-| Option | Description | Values | Default |
-| --- | --- | --- | --- |
-| `auto-update` | Automatically updates the addon when a new version is available. | `true`/`false` | `true` |
-| `debug` | Enables debug logs. | `true`/`false` | `false` |
-| `lang` | The default language of this addon. | [Language codes](https://github.com/ybw0014/InfinityExpansion2/tree/master/src/main/resources/lang) | `en` |
-| `enable-researches` | Whether to enable researches. | `true`/`false` | `false` |
-| `singularity` | [Singularity options](#singularity). | | |
-| `gear-transformer` | [Gear Transformer options](#gear-transformer). | | |
-| `resource-synthesizer` | [Resource Synthesizer options](#resource-synthesizer). | | |
-| `mob-simulation` | [Mob Simulation options](#mob-simulation). | | |
-| `storage` | [Storage options](#storage). | | |
-| `quarry` | [Quarry options](#quarry). | | |
-| `advanced-anvil` | [Advanced Anvil options](#advanced-anvil). | | |
-| `infinity-gear-enchantments` | [Infinity gear enchantment options](#infinity-gear-enchantment). | | |
+| Option                       | Description                                                      | Values                                                                                              | Default |
+| ---------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------- |
+| `auto-update`                | Automatically updates the addon when a new version is available. | `true`/`false`                                                                                      | `true`  |
+| `debug`                      | Enables debug logs.                                              | `true`/`false`                                                                                      | `false` |
+| `lang`                       | The default language of this addon.                              | [Language codes](https://github.com/ybw0014/InfinityExpansion2/tree/master/src/main/resources/lang) | `en`    |
+| `enable-researches`          | Whether to enable researches.                                    | `true`/`false`                                                                                      | `false` |
+| `singularity`                | [Singularity options](#singularity).                             |                                                                                                     |         |
+| `gear-transformer`           | [Gear Transformer options](#gear-transformer).                   |                                                                                                     |         |
+| `resource-synthesizer`       | [Resource Synthesizer options](#resource-synthesizer).           |                                                                                                     |         |
+| `mob-simulation`             | [Mob Simulation options](#mob-simulation).                       |                                                                                                     |         |
+| `storage`                    | [Storage options](#storage).                                     |                                                                                                     |         |
+| `quarry`                     | [Quarry options](#quarry).                                       |                                                                                                     |         |
+| `advanced-anvil`             | [Advanced Anvil options](#advanced-anvil).                       |                                                                                                     |         |
+| `infinity-gear-enchantments` | [Infinity gear enchantment options](#infinity-gear-enchantment). |                                                                                                     |         |
+
+## Item config {#item}
+
+This section explains how item configs are read by the plugin.
+
+Across various InfinityExpansion2 config files
 
 ## Singularity options {#singularity}
 
