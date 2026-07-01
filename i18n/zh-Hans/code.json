@@ -274,9 +274,6 @@
     "message": "标签",
     "description": "The title of the tag list page"
   },
-  "Read the docs": {
-    "message": "阅读文档"
-  },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "找到 {count} 份文件",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -544,5 +541,29 @@
   "theme.blog.author.noPosts": {
     "message": "该作者尚未撰写任何文章。",
     "description": "The text for authors with 0 blog post"
+  },
+  "All plugins": {
+    "message": "所有插件"
+  },
+  "Search documentation": {
+    "message": "搜索文档"
+  },
+  "Documentation, setup guides, and configuration references for my Minecraft plugins.": {
+    "message": "我的 Minecraft 插件文档，包括安装指南、配置参考和翻译说明。"
+  },
+  "plugin.Guizhan Builds": {
+    "message": "鬼斩构建站"
+  },
+  "plugin.Bump": {
+    "message": "Bump"
+  },
+  "plugin.GeneticChickengineering": {
+    "message": "鸡因工程"
+  },
+  "plugin.InfinityExpansion2": {
+    "message": "无尽贪婪2"
+  },
+  "plugin.SlimefunTranslation": {
+    "message": "粘液翻译"
   }
 }

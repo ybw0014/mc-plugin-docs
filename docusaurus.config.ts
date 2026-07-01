@@ -6,7 +6,7 @@ import rehypeKatex from "rehype-katex";
 
 const config: Config = {
   title: "ybw0014's Minecraft Plugins",
-  tagline: "Plugins are cool",
+  tagline: "Documentation, setup guides, and configuration references for my Minecraft plugins.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
