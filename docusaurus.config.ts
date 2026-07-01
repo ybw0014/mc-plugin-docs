@@ -73,34 +73,36 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "guizhan-builds",
+          type: "dropdown",
+          label: "Plugins",
           position: "left",
-          label: "Guizhan Builds",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "bump",
-          position: "left",
-          label: "Bump",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "genetic-chickengineering",
-          position: "left",
-          label: "GeneticChickengineering",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "infinity-expansion-2",
-          position: "left",
-          label: "InfinityExpansion2",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "slimefun-translation",
-          position: "left",
-          label: "SlimefunTranslation",
+          items: [
+            {
+              type: "docSidebar",
+              sidebarId: "guizhan-builds",
+              label: "Guizhan Builds",
+            },
+            {
+              type: "docSidebar",
+              sidebarId: "bump",
+              label: "Bump",
+            },
+            {
+              type: "docSidebar",
+              sidebarId: "genetic-chickengineering",
+              label: "GeneticChickengineering",
+            },
+            {
+              type: "docSidebar",
+              sidebarId: "infinity-expansion-2",
+              label: "InfinityExpansion2",
+            },
+            {
+              type: "docSidebar",
+              sidebarId: "slimefun-translation",
+              label: "SlimefunTranslation",
+            },
+          ],
         },
         {
           href: "https://github.com/ybw0014/mc-plugin-docs",

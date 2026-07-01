@@ -15,10 +15,6 @@
     "message": "粘液翻译",
     "description": "Navbar item with label SlimefunTranslation"
   },
-  "item.label.GitHub": {
-    "message": "GitHub",
-    "description": "Navbar item with label GitHub"
-  },
   "item.label.Guizhan Builds": {
     "message": "鬼斩构建站",
     "description": "Navbar item with label Guizhan Builds"
@@ -30,5 +26,9 @@
   "item.label.InfinityExpansion2": {
     "message": "无尽贪婪2",
     "description": "Navbar item with label InfinityExpansion2"
+  },
+  "item.label.Plugins": {
+    "message": "插件",
+    "description": "Navbar item with label Plugins"
   }
 }
