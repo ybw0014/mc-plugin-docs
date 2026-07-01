@@ -155,11 +155,14 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
       additionalLanguages: ["java", "groovy"],
     },
-    algolia: {
+    docsearch: {
       appId: "O8LFXULH6B",
       apiKey: "c54e71d1bd5e789ccb299a25f9516559",
-      askAi: "Lf1obuxvWz4r",
       indexName: "ybw0014",
+      askAi: {
+        assistantId: "a4454907-42c8-4034-89e0-3674dd5aa3ca",
+        agentStudio: true,
+      },
       contextualSearch: true,
     },
     zoom: {
@@ -174,7 +177,7 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 
-  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-image-zoom"],
+  plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-image-zoom", "@docsearch/docusaurus-adapter"],
 };
 
 export default config;
